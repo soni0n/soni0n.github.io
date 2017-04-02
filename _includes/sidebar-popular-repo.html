@@ -1,34 +1,10 @@
-<h3>My Popular Repositories</h3>
-{% if site.github.public_repositories != null %}
-{% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
-{% for repo in repos | limit: site.side_bar_repo_limit %}
-<a href="{{ repo.html_url }}" target="_blank" class="card text-center">
-    <div class="thumbnail">
-        <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
-            <div class="card-image-cell">
-                <h3 class="card-title">
-                    {{ repo.name }}
-                </h3>
-            </div>
-        </div>
-        <div class="caption">
-            <div class="card-description">
-                <p class="card-text">{{ repo.description }}</p>
-            </div>
-            <div class="card-text">
-                <span class="meta-info" title="{{ repo.stargazers_count }} stars">
-                    <span class="octicon octicon-star"></span> {{ repo.stargazers_count }}
-                </span>
-                <span class="meta-info" title="{{ repo.forks_count }} forks">
-                    <span class="octicon octicon-git-branch"></span> {{ repo.forks_count }}
-                </span>
-                <span class="meta-info" title="Last updated：{{ repo.updated_at }}">
-                    <span class="octicon octicon-clock"></span>
-                    <time datetime="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d' }}</time>
-                </span>
-            </div>
-        </div>
-    </div>
-</a>
-{% endfor %}
-{% endif %}
+<h3>Books &amp; Movies I Love</h3>
+<center>
+<div>
+<object id="passing" height="155" width="133" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"><param name="_cx" value="3519"><param name="_cy" value="4101"><param name="FlashVars" value=""><param name="Movie" value="http://www.douban.com/doushow/sonion/collection_random_movie|book_1_1_medium_nologo/doushow.swf"><param name="Src" value="http://www.douban.com/doushow/sonion/collection_random_movie|book_1_1_medium_nologo/doushow.swf"><param name="WMode" value="Transparent"><param name="Play" value="0"><param name="Loop" value="-1"><param name="Quality" value="High"><param name="SAlign" value="LT"><param name="Menu" value="-1"><param name="Base" value=""><param name="AllowScriptAccess" value=""><param name="Scale" value="NoScale"><param name="DeviceFont" value="0"><param name="EmbedMovie" value="0"><param name="BGColor" value=""><param name="SWRemote" value=""><param name="MovieData" value=""><param name="SeamlessTabbing" value="1"><param name="Profile" value="0"><param name="ProfileAddress" value=""><param name="ProfilePort" value="0"><param name="AllowNetworking" value="all"><param name="AllowFullScreen" value="false">
+<embed src="http://www.douban.com/doushow/sonion/collection_random_movie|book_1_1_medium_nologo/doushow.swf" wmode="transparent" quality="high" width="133" height="155" name="passing" scale="noscale" align="tl" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object></div></center>
+<h3>Books &amp; Movies I Want</h3>
+<center>
+<div>
+<object id="passing" height="155" width="133" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"><param name="_cx" value="3519"><param name="_cy" value="4101"><param name="FlashVars" value=""><param name="Movie" value="http://www.douban.com/doushow/sonion/wishlist_random_movie|book_1_1_medium_nologo/doushow.swf"><param name="Src" value="http://www.douban.com/doushow/sonion/wishlist_random_movie|book_1_1_medium_nologo/doushow.swf"><param name="WMode" value="Transparent"><param name="Play" value="0"><param name="Loop" value="-1"><param name="Quality" value="High"><param name="SAlign" value="LT"><param name="Menu" value="-1"><param name="Base" value=""><param name="AllowScriptAccess" value=""><param name="Scale" value="NoScale"><param name="DeviceFont" value="0"><param name="EmbedMovie" value="0"><param name="BGColor" value=""><param name="SWRemote" value=""><param name="MovieData" value=""><param name="SeamlessTabbing" value="1"><param name="Profile" value="0"><param name="ProfileAddress" value=""><param name="ProfilePort" value="0"><param name="AllowNetworking" value="all"><param name="AllowFullScreen" value="false">
+<embed src="http://www.douban.com/doushow/sonion/wishlist_random_movie|book_1_1_medium_nologo/doushow.swf" wmode="transparent" quality="high" width="133" height="155" name="passing" scale="noscale" align="tl" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object></div></center>

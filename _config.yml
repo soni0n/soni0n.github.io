@@ -4,7 +4,7 @@
 baseurl:
 url: http://zhouyang.cn
 date_format: "ordinal"
-title: 5onion
+title: Zhouyang.cn
 subtitle: "Zhouyang.cn"
 description: "Zhouyang.cn"
 keywords: sonion, Zhouyang, zyoung, zhouyang.cn
@@ -16,7 +16,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhouyang
+author: Zhouyang.cn
 organization: Huawei, Inc.
 organization_url: https://www.huawei.com
 github_username: 5onion

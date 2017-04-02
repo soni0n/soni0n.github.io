@@ -1,19 +1,12 @@
-- name: Software Engineer Keywords
+- name: Tech
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - Linux
+      - Web
+      - OSS
 
-- name: Mobile Developer Keywords
+- name: Information
   keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - DITA
+      - markdown
+      - infomapping
+      - UCD/UA

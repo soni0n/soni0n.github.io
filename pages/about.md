@@ -11,13 +11,13 @@ permalink: /about/
 I am Zhouyang.
 Information Architect.
 
-## 联系
+### 联系
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
-## Skill Keywords
+### Skill Keywords
 
 {% for category in site.data.skills %}
 ### {{ category.name }}
