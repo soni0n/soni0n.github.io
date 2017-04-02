@@ -4,7 +4,7 @@
 baseurl:
 url: http://zhouyang.cn
 date_format: "ordinal"
-title: sonion
+title: 5onion
 subtitle: "Zhouyang.cn"
 description: "Zhouyang.cn"
 keywords: sonion, Zhouyang, zyoung, zhouyang.cn
@@ -78,7 +78,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: 5onion/5onion.github.io
 
 # ---------------- #
 #      Comments    #
@@ -87,7 +87,7 @@ repository: mzlogin/mzlogin.github.io
 comments_provider: disqus
 # !!!重要!!! 请修改下面这些用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-disqus_username: mzlogin
+disqus_username: sonion
 
 # ---------------- #
 #    Analytics     #
