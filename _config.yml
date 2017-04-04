@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://zhouyang.cn
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: sonion
+subtitle: "Zhouyang.cn"
+description: "Zhouyang.cn"
+keywords: sonion, Zhouyang, zyoung, zhouyang.cn
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -16,12 +16,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
-github_username: mzlogin
-location: Beijing, China
-email: chumpma@gmail.com
+author: Zhouyang
+organization: Huawei, Inc.
+organization_url: https://www.huawei.com
+github_username: 5onion
+location: Shenzhen, China
+email: me@zhouyang.cn
 
 # ---------------- #
 #    Navigation    #
